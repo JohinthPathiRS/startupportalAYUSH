@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon server.js",
+    "start": " node server.js"
+  },
+  "keywords": [],
+  "author": "Prince",
+  "license": "ISC",
+  "description": "backend of the web",
+  "dependencies": {
+    "@google/generative-ai": "^0.19.0",
+    "@prisma/client": "^5.19.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.6.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "openai": "^4.62.0",
+    "path": "^0.12.7",
+    "prisma": "^5.19.1",
+    "psql": "^0.0.1",
+    "redux-persist": "^6.0.0",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
